@@ -1,0 +1,146 @@
+# Privacy Policy — RF Wi-Fi Mapper
+
+**Effective date:** `2026-06-06`
+**App:** RF Wi-Fi Mapper (Android)
+**Developer / data controller:** `Andrii Bulanov`
+**Contact:** `droidcrib@gmail.com`
+
+> **Note:** This is a drafted template, not legal advice. Review it (and adjust the placeholders)
+> before publishing, and keep it in sync with the app's actual behaviour.
+
+RF Wi-Fi Mapper ("the app") helps technicians survey indoor Wi-Fi and cellular signal coverage by
+walking a building, recording signal measurements on a floor-plan image, and exporting PDF/image
+reports. This policy explains what data the app handles and how.
+
+The short version: **your survey data stays on your device.** The only information that leaves your
+device is anonymous usage and crash diagnostics, and only in the published version of the app.
+
+---
+
+## 1. Data stored only on your device
+
+The following is created and stored **locally on your device** (in the app's private storage and an
+offline database). It is **never transmitted to us or to any third party** by the app:
+
+- **Projects** and the details you type into them — project name, and any **client name, engineer
+  name, and address** you enter.
+- **Floor-plan images** you photograph or import.
+- **Signal measurements** — signal strength (dBm), the Wi-Fi network name (SSID) and cellular cell
+  identifiers read at each point, and the point's **position on your floor-plan image** (stored as a
+  relative location on the image, **not** as a GPS/geographic coordinate).
+- **Access points** you place and name.
+- **Your profile** — the name and title you optionally enter for report headers.
+- **App settings** (e.g. theme).
+
+This data remains until you delete it in the app, use the in-app "reset app data" function, or
+uninstall the app. We have no access to it.
+
+PDF and image reports you generate are saved on your device; they are shared only **by you**, when
+you choose to share them, through your device's normal sharing options.
+
+---
+
+## 2. Device permissions and why the app needs them
+
+| Permission | Why it's used |
+|---|---|
+| **Location** (precise/approximate) | Android **requires** location access in order to read the **Wi-Fi network name (SSID)** and **cellular cell information** used for measurements. The app does **not** collect, store, or transmit your geographic location. Measurement positions are recorded only as relative points on your floor-plan image. |
+| **Phone** (read phone state) | Reads cellular signal strength and cell identity for the "Mobile" measurement layer. |
+| **Camera** | Lets you photograph a paper floor plan to use as the survey backdrop. |
+| **Wi-Fi state** | Reads Wi-Fi signal information for the "Wi-Fi" measurement layer. |
+
+The app does not use background location and does not track your location over time.
+
+---
+
+## 3. Analytics and crash reporting
+
+The **published** version of the app uses two Google **Firebase** services to understand usage and
+keep the app stable:
+
+- **Firebase Analytics** — records anonymous **product-usage events** (for example: a screen was
+  viewed, a project was created, a report was generated). It also collects standard app/device
+  information (app version, device model, operating-system version, language) and an app-instance
+  identifier, and Google derives an **approximate location (region/country level) from your IP
+  address**.
+- **Firebase Crashlytics** — records **crash and error diagnostics** (stack traces, app version,
+  device state at the time of a crash) so we can fix problems.
+
+This information is processed by Google as our service provider. See Google's
+[Privacy & Terms](https://policies.google.com/privacy) and
+[How Google uses data](https://policies.google.com/technologies/partner-sites).
+
+We do **not**:
+- show ads or use an **Advertising ID** (the advertising-ID permission has been removed from the app),
+- sell your data,
+- build advertising profiles, or
+- track you across other apps or websites.
+
+> Note: analytics and crash reporting are **disabled in development/debug builds** — they apply only
+> to the version distributed on Google Play.
+
+---
+
+## 4. What we do not collect
+
+- No account or login — the app does not require sign-in.
+- No precise/geographic location is stored or transmitted.
+- No contacts, no microphone, no advertising identifiers.
+- The survey data described in Section 1 is never sent off your device by the app.
+
+---
+
+## 5. Data sharing
+
+We do not sell or rent your data. We do not share it with third parties except our **service
+provider Google (Firebase)**, which processes the analytics and crash diagnostics described in
+Section 3 on our behalf.
+
+---
+
+## 6. Data retention and deletion
+
+- **On-device data:** kept until you delete individual items, use the in-app reset, or uninstall the
+  app. Uninstalling removes the app's local data from your device.
+- **Analytics / crash data:** retained by Google for the periods described in Firebase's
+  documentation. You can request deletion of analytics/diagnostic data associated with your device by
+  contacting us at the email above; uninstalling the app stops further collection.
+
+---
+
+## 7. Security
+
+On-device data is held in the app's private, sandboxed storage. Analytics and crash data are
+transmitted to Google over encrypted (HTTPS) connections.
+
+No method of storage or transmission is 100% secure, but we use the platform's standard protections.
+
+---
+
+## 8. Children
+
+The app is intended for professional/technical use and is **not directed to children**. We do not
+knowingly collect data from children.
+
+---
+
+## 9. Your rights
+
+Depending on where you live (e.g. EEA/UK under GDPR, or California under CCPA), you may have rights to
+access, correct, or delete personal data, or to object to certain processing. Because survey data
+lives on your device, you control it directly. For analytics/diagnostic data, or any other request,
+contact us at `droidcrib@gmail.com`.
+
+---
+
+## 10. Changes to this policy
+
+We may update this policy as the app evolves. Material changes will be reflected by updating the
+effective date at the top and publishing the new version at this URL.
+
+---
+
+## 11. Contact
+
+`Andrii Bulanov`
+`droidcrib@gmail.com`

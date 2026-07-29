@@ -1,12 +1,13 @@
-# Privacy Policy — RF Wi-Fi Mapper
+---
+layout: default
+title: Privacy Policy
+description: What data RF Wi-Fi Mapper handles, what stays on your device, and what does not.
+---
 
 **Effective date:** `2026-07-29`
 **App:** RF Wi-Fi Mapper (Android)
 **Developer / data controller:** `Andrii Bulanov`
 **Contact:** `wifimapper.app@gmail.com`
-
-> **Note:** This is a drafted template, not legal advice. Review it (and adjust the placeholders)
-> before publishing, and keep it in sync with the app's actual behaviour.
 
 RF Wi-Fi Mapper ("the app") helps technicians survey indoor Wi-Fi and cellular signal coverage by
 walking a building, recording signal measurements on a floor-plan image, and exporting PDF/image

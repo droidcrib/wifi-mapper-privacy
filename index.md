@@ -1,190 +1,194 @@
----
-layout: default
-title: Privacy Policy
-description: What data RF Wi-Fi Mapper handles, what stays on your device, and what does not.
----
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — RF Wi-Fi Mapper</title>
+<meta name="description" content="What data RF Wi-Fi Mapper handles, what stays on your device, and what does not.">
+<meta name="color-scheme" content="light dark">
+<style>
+  /* Tokens mirror presentation/theme/AppTheme.kt so the page reads as part of the product. */
+  :root{
+    --bg:#ECEBE7; --surface:#FFFFFF; --line:#D8D6D0;
+    --text:#16171B; --dim:#5A5F66; --faint:#8A8F96;
+    --accent:#0E8CA8; --accent-soft:rgba(14,140,168,.10);
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#16171B; --surface:#202127; --line:#363942;
+      --text:#ECEDEF; --dim:#A0A4AB; --faint:#6C7178;
+      --accent:#22D3EE; --accent-soft:rgba(34,211,238,.14);
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--text);
+    font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    padding:0 20px 96px;
+  }
+  .wrap{max-width:720px;margin:0 auto}
 
-**Effective date:** `2026-07-29`
-**App:** RF Wi-Fi Mapper (Android)
-**Developer / data controller:** `Andrii Bulanov`
-**Contact:** `wifimapper.app@gmail.com`
+  header{padding:44px 0 22px;border-bottom:1px solid var(--line);margin-bottom:34px}
+  .eyebrow{
+    font-family:var(--mono);font-size:12px;letter-spacing:2.5px;text-transform:uppercase;
+    color:var(--accent);margin-bottom:14px;
+  }
+  header h1{margin:0;font-size:clamp(26px,5vw,34px);line-height:1.2;letter-spacing:-.4px}
+  nav{margin-top:20px;display:flex;gap:8px;flex-wrap:wrap}
+  nav a{
+    display:inline-block;padding:6px 13px;border-radius:99px;font-size:13.5px;
+    text-decoration:none;color:var(--dim);border:1px solid var(--line);background:var(--surface);
+  }
+  nav a:hover{color:var(--accent);border-color:var(--accent)}
+  nav a[aria-current="page"]{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
 
-RF Wi-Fi Mapper ("the app") helps technicians survey indoor Wi-Fi and cellular signal coverage by
-walking a building, recording signal measurements on a floor-plan image, and exporting PDF/image
-reports. This policy explains what data the app handles and how.
+  .meta{
+    color:var(--dim);font-size:14.5px;line-height:1.9;margin:0 0 26px;
+    padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:12px;
+  }
+  .meta strong{color:var(--text)}
 
-The short version: **your survey data stays on your device.** The only information that leaves your
-device is anonymous usage and crash diagnostics, plus — if you buy the one-time Pro unlock — the
-purchase receipt needed to confirm and restore it.
+  h2{
+    font-size:20px;line-height:1.3;margin:36px 0 12px;letter-spacing:-.2px;
+    padding-top:22px;border-top:1px solid var(--line);
+  }
+  main > h2:first-child{border-top:0;padding-top:0;margin-top:0}
+  p{margin:14px 0}
+  a{color:var(--accent)}
+  strong{font-weight:650}
+  ul{padding-left:22px;margin:14px 0}
+  li{margin:6px 0}
 
----
+  code{
+    font-family:var(--mono);font-size:.88em;background:var(--surface);
+    border:1px solid var(--line);border-radius:5px;padding:1px 6px;
+  }
+  blockquote{
+    margin:20px 0;padding:12px 16px;background:var(--surface);
+    border-left:3px solid var(--accent);border-radius:0 10px 10px 0;
+    color:var(--dim);font-size:14.5px;
+  }
+  blockquote p{margin:6px 0}
 
-## 1. Data stored only on your device
+  .tbl{overflow-x:auto;margin:18px 0}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:460px}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--faint);font-size:12.5px;text-transform:uppercase;letter-spacing:.8px;font-weight:600}
 
-The following is created and stored **locally on your device** (in the app's private storage and an
-offline database). It is **never transmitted to us or to any third party** by the app:
+  footer{
+    margin-top:56px;padding-top:22px;border-top:1px solid var(--line);
+    color:var(--faint);font-size:13px;
+  }
+  footer a{color:var(--dim)}
+</style>
+</head>
+<body>
+<div class="wrap">
 
-- **Projects** and the details you type into them — project name, and any **client name, engineer
-  name, and address** you enter.
-- **Floor-plan images** you photograph or import.
-- **Signal measurements** — signal strength (dBm), the Wi-Fi network name (SSID) and cellular cell
-  identifiers read at each point, and the point's **position on your floor-plan image** (stored as a
-  relative location on the image, **not** as a GPS/geographic coordinate).
-- **Access points** you place and name.
-- **Your profile** — the name and title you optionally enter for report headers.
-- **App settings** (e.g. theme).
+  <header>
+    <div class="eyebrow">RF · Wi-Fi Mapper</div>
+    <h1>Privacy Policy</h1>
+    <nav>
+      <a href="./" aria-current="page">Privacy Policy</a>
+      <a href="terms/">Terms of Use</a>
+    </nav>
+  </header>
 
-This data remains until you delete it in the app, use the in-app "reset app data" function, or
-uninstall the app. We have no access to it.
+  <main>
+    <p class="meta"><strong>Effective date:</strong> <code>2026-07-29</code><br><strong>App:</strong> RF Wi-Fi Mapper (Android)<br><strong>Developer / data controller:</strong> <code>Andrii Bulanov</code><br><strong>Contact:</strong> <code>wifimapper.app@gmail.com</code></p>
+    <p>RF Wi-Fi Mapper ("the app") helps technicians survey indoor Wi-Fi and cellular signal coverage by walking a building, recording signal measurements on a floor-plan image, and exporting PDF/image reports. This policy explains what data the app handles and how.</p>
+    <p>The short version: <strong>your survey data stays on your device.</strong> The only information that leaves your device is anonymous usage and crash diagnostics, plus — if you buy the one-time Pro unlock — the purchase receipt needed to confirm and restore it.</p>
+    <h2>1. Data stored only on your device</h2>
+    <p>The following is created and stored <strong>locally on your device</strong> (in the app's private storage and an offline database). It is <strong>never transmitted to us or to any third party</strong> by the app:</p>
+    <ul>
+      <li><strong>Projects</strong> and the details you type into them — project name, and any <strong>client name, engineer name, and address</strong> you enter.</li>
+      <li><strong>Floor-plan images</strong> you photograph or import.</li>
+      <li><strong>Signal measurements</strong> — signal strength (dBm), the Wi-Fi network name (SSID) and cellular cell identifiers read at each point, and the point's <strong>position on your floor-plan image</strong> (stored as a relative location on the image, <strong>not</strong> as a GPS/geographic coordinate).</li>
+      <li><strong>Access points</strong> you place and name.</li>
+      <li><strong>Your profile</strong> — the name and title you optionally enter for report headers.</li>
+      <li><strong>App settings</strong> (e.g. theme).</li>
+    </ul>
+    <p>This data remains until you delete it in the app, use the in-app "reset app data" function, or uninstall the app. We have no access to it.</p>
+    <p>PDF and image reports you generate are saved on your device; they are shared only <strong>by you</strong>, when you choose to share them, through your device's normal sharing options.</p>
+    <h2>2. Device permissions and why the app needs them</h2>
+    <div class="tbl"><table>
+      <thead><tr><th>Permission</th><th>Why it's used</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Location</strong> (precise/approximate)</td><td>Android <strong>requires</strong> location access in order to read the <strong>Wi-Fi network name (SSID)</strong> and <strong>cellular cell information</strong> used for measurements. The app does <strong>not</strong> collect, store, or transmit your geographic location. Measurement positions are recorded only as relative points on your floor-plan image.</td></tr>
+        <tr><td><strong>Phone</strong> (read phone state)</td><td>Reads cellular signal strength and cell identity for the "Mobile" measurement layer.</td></tr>
+        <tr><td><strong>Camera</strong></td><td>Lets you photograph a paper floor plan to use as the survey backdrop.</td></tr>
+        <tr><td><strong>Wi-Fi state</strong></td><td>Reads Wi-Fi signal information for the "Wi-Fi" measurement layer.</td></tr>
+      </tbody></table></div>
+    <p>The app does not use background location and does not track your location over time.</p>
+    <h2>3. Analytics and crash reporting</h2>
+    <p>The <strong>published</strong> version of the app uses two Google <strong>Firebase</strong> services to understand usage and keep the app stable:</p>
+    <ul>
+      <li><strong>Firebase Analytics</strong> — records anonymous <strong>product-usage events</strong> (for example: a screen was viewed, a project was created, a report was generated). It also collects standard app/device information (app version, device model, operating-system version, language) and an app-instance identifier, and Google derives an <strong>approximate location (region/country level) from your IP address</strong>.</li>
+      <li><strong>Firebase Crashlytics</strong> — records <strong>crash and error diagnostics</strong> (stack traces, app version, device state at the time of a crash) so we can fix problems.</li>
+    </ul>
+    <p>This information is processed by Google as our service provider. See Google's <a href="https://policies.google.com/privacy">Privacy &amp; Terms</a> and <a href="https://policies.google.com/technologies/partner-sites">How Google uses data</a>.</p>
+    <p>We do <strong>not</strong>:</p>
+    <ul>
+      <li>show ads or use an <strong>Advertising ID</strong> (the advertising-ID permission has been removed from the app),</li>
+      <li>sell your data,</li>
+      <li>build advertising profiles, or</li>
+      <li>track you across other apps or websites.</li>
+    </ul>
+    <blockquote><p>Note: analytics and crash reporting are <strong>disabled in development/debug builds</strong> — they apply only to the version distributed on Google Play.</p></blockquote>
+    <h2>4. Purchases (Pro unlock)</h2>
+    <p>The app offers a <strong>one-time purchase</strong> that unlocks PDF report generation. It is billed by <strong>Google Play</strong>, and we use <strong>RevenueCat</strong> to validate the purchase and to restore it when you reinstall the app or set up a new device.</p>
+    <p><strong>We never see or receive your payment details.</strong> Your card, bank or payment-method information is handled entirely by Google Play. It is not sent to us and not sent to RevenueCat.</p>
+    <p>What is transmitted when you buy or restore Pro:</p>
+    <ul>
+      <li>the <strong>purchase receipt/token and product identifier</strong> issued by Google Play, sent to RevenueCat so it can verify the purchase is genuine and still valid;</li>
+      <li>an <strong>anonymous installation identifier</strong> generated by RevenueCat. It is not linked to your name, email or Google account by us, and it changes if you reinstall the app;</li>
+      <li>basic app/device information (app version, platform, country) that accompanies the request.</li>
+    </ul>
+    <p>Google Play also notifies RevenueCat when a purchase is <strong>refunded or cancelled</strong>, so that access can be updated accordingly.</p>
+    <p>RevenueCat processes this on our behalf as our service provider. See <a href="https://www.revenuecat.com/privacy">RevenueCat's Privacy Policy</a>.</p>
+    <p>The app also records anonymous <strong>purchase events</strong> through Firebase Analytics (that a paywall was shown, that a purchase started, completed, failed, or was restored, and the product and displayed price). These carry no payment details and no personal identifiers.</p>
+    <p>If you never purchase Pro, none of the above applies to you.</p>
+    <h2>5. What we do not collect</h2>
+    <ul>
+      <li>No account or login — the app does not require sign-in.</li>
+      <li>No precise/geographic location is stored or transmitted.</li>
+      <li>No contacts, no microphone, no advertising identifiers.</li>
+      <li><strong>No payment details</strong> — card and billing information is handled by Google Play and never reaches us or RevenueCat (Section 4).</li>
+      <li>The survey data described in Section 1 is never sent off your device by the app.</li>
+    </ul>
+    <h2>6. Data sharing</h2>
+    <p>We do not sell or rent your data. We share it only with the <strong>service providers</strong> that process it on our behalf:</p>
+    <ul>
+      <li><strong>Google (Firebase)</strong> — the analytics and crash diagnostics described in Section 3.</li>
+      <li><strong>Google Play</strong> — billing for the Pro unlock.</li>
+      <li><strong>RevenueCat</strong> — validation and restoration of that purchase, as described in Section 4.</li>
+    </ul>
+    <p>We do not share your data with anyone else.</p>
+    <h2>7. Data retention and deletion</h2>
+    <ul>
+      <li><strong>On-device data:</strong> kept until you delete individual items, use the in-app reset, or uninstall the app. Uninstalling removes the app's local data from your device.</li>
+      <li><strong>Analytics / crash data:</strong> retained by Google for the periods described in Firebase's documentation. You can request deletion of analytics/diagnostic data associated with your device by contacting us at the email above; uninstalling the app stops further collection.</li>
+      <li><strong>Purchase records:</strong> retained by Google Play and RevenueCat for as long as needed to honour the purchase — a lifetime unlock has to remain restorable, so its record is kept while the product exists. Deleting it would remove your ability to restore Pro on a new device. Requests about purchase data can be sent to the email above.</li>
+    </ul>
+    <h2>8. Security</h2>
+    <p>On-device data is held in the app's private, sandboxed storage. Analytics, crash data and purchase verification are transmitted over encrypted (HTTPS) connections.</p>
+    <p>No method of storage or transmission is 100% secure, but we use the platform's standard protections.</p>
+    <h2>9. Children</h2>
+    <p>The app is intended for professional/technical use and is <strong>not directed to children</strong>. We do not knowingly collect data from children.</p>
+    <h2>10. Your rights</h2>
+    <p>Depending on where you live (e.g. EEA/UK under GDPR, or California under CCPA), you may have rights to access, correct, or delete personal data, or to object to certain processing. Because survey data lives on your device, you control it directly. For analytics/diagnostic data, or any other request, contact us at <code>wifimapper.app@gmail.com</code>.</p>
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this policy as the app evolves. Material changes will be reflected by updating the effective date at the top and publishing the new version at this URL.</p>
+    <h2>12. Contact</h2>
+    <p><code>Andrii Bulanov</code> <code>wifimapper.app@gmail.com</code></p>
+  </main>
 
-PDF and image reports you generate are saved on your device; they are shared only **by you**, when
-you choose to share them, through your device's normal sharing options.
+  <footer>
+    RF Wi-Fi Mapper · <a href="mailto:wifimapper.app@gmail.com">wifimapper.app@gmail.com</a>
+  </footer>
 
----
-
-## 2. Device permissions and why the app needs them
-
-| Permission | Why it's used |
-|---|---|
-| **Location** (precise/approximate) | Android **requires** location access in order to read the **Wi-Fi network name (SSID)** and **cellular cell information** used for measurements. The app does **not** collect, store, or transmit your geographic location. Measurement positions are recorded only as relative points on your floor-plan image. |
-| **Phone** (read phone state) | Reads cellular signal strength and cell identity for the "Mobile" measurement layer. |
-| **Camera** | Lets you photograph a paper floor plan to use as the survey backdrop. |
-| **Wi-Fi state** | Reads Wi-Fi signal information for the "Wi-Fi" measurement layer. |
-
-The app does not use background location and does not track your location over time.
-
----
-
-## 3. Analytics and crash reporting
-
-The **published** version of the app uses two Google **Firebase** services to understand usage and
-keep the app stable:
-
-- **Firebase Analytics** — records anonymous **product-usage events** (for example: a screen was
-  viewed, a project was created, a report was generated). It also collects standard app/device
-  information (app version, device model, operating-system version, language) and an app-instance
-  identifier, and Google derives an **approximate location (region/country level) from your IP
-  address**.
-- **Firebase Crashlytics** — records **crash and error diagnostics** (stack traces, app version,
-  device state at the time of a crash) so we can fix problems.
-
-This information is processed by Google as our service provider. See Google's
-[Privacy & Terms](https://policies.google.com/privacy) and
-[How Google uses data](https://policies.google.com/technologies/partner-sites).
-
-We do **not**:
-- show ads or use an **Advertising ID** (the advertising-ID permission has been removed from the app),
-- sell your data,
-- build advertising profiles, or
-- track you across other apps or websites.
-
-> Note: analytics and crash reporting are **disabled in development/debug builds** — they apply only
-> to the version distributed on Google Play.
-
----
-
-## 4. Purchases (Pro unlock)
-
-The app offers a **one-time purchase** that unlocks PDF report generation. It is billed by **Google
-Play**, and we use **RevenueCat** to validate the purchase and to restore it when you reinstall the
-app or set up a new device.
-
-**We never see or receive your payment details.** Your card, bank or payment-method information is
-handled entirely by Google Play. It is not sent to us and not sent to RevenueCat.
-
-What is transmitted when you buy or restore Pro:
-
-- the **purchase receipt/token and product identifier** issued by Google Play, sent to RevenueCat so
-  it can verify the purchase is genuine and still valid;
-- an **anonymous installation identifier** generated by RevenueCat. It is not linked to your name,
-  email or Google account by us, and it changes if you reinstall the app;
-- basic app/device information (app version, platform, country) that accompanies the request.
-
-Google Play also notifies RevenueCat when a purchase is **refunded or cancelled**, so that access can
-be updated accordingly.
-
-RevenueCat processes this on our behalf as our service provider. See
-[RevenueCat's Privacy Policy](https://www.revenuecat.com/privacy).
-
-The app also records anonymous **purchase events** through Firebase Analytics (that a paywall was
-shown, that a purchase started, completed, failed, or was restored, and the product and displayed
-price). These carry no payment details and no personal identifiers.
-
-If you never purchase Pro, none of the above applies to you.
-
----
-
-## 5. What we do not collect
-
-- No account or login — the app does not require sign-in.
-- No precise/geographic location is stored or transmitted.
-- No contacts, no microphone, no advertising identifiers.
-- **No payment details** — card and billing information is handled by Google Play and never reaches
-  us or RevenueCat (Section 4).
-- The survey data described in Section 1 is never sent off your device by the app.
-
----
-
-## 6. Data sharing
-
-We do not sell or rent your data. We share it only with the **service providers** that process it on
-our behalf:
-
-- **Google (Firebase)** — the analytics and crash diagnostics described in Section 3.
-- **Google Play** — billing for the Pro unlock.
-- **RevenueCat** — validation and restoration of that purchase, as described in Section 4.
-
-We do not share your data with anyone else.
-
----
-
-## 7. Data retention and deletion
-
-- **On-device data:** kept until you delete individual items, use the in-app reset, or uninstall the
-  app. Uninstalling removes the app's local data from your device.
-- **Analytics / crash data:** retained by Google for the periods described in Firebase's
-  documentation. You can request deletion of analytics/diagnostic data associated with your device by
-  contacting us at the email above; uninstalling the app stops further collection.
-- **Purchase records:** retained by Google Play and RevenueCat for as long as needed to honour the
-  purchase — a lifetime unlock has to remain restorable, so its record is kept while the product
-  exists. Deleting it would remove your ability to restore Pro on a new device. Requests about
-  purchase data can be sent to the email above.
-
----
-
-## 8. Security
-
-On-device data is held in the app's private, sandboxed storage. Analytics, crash data and purchase
-verification are transmitted over encrypted (HTTPS) connections.
-
-No method of storage or transmission is 100% secure, but we use the platform's standard protections.
-
----
-
-## 9. Children
-
-The app is intended for professional/technical use and is **not directed to children**. We do not
-knowingly collect data from children.
-
----
-
-## 10. Your rights
-
-Depending on where you live (e.g. EEA/UK under GDPR, or California under CCPA), you may have rights to
-access, correct, or delete personal data, or to object to certain processing. Because survey data
-lives on your device, you control it directly. For analytics/diagnostic data, or any other request,
-contact us at `wifimapper.app@gmail.com`.
-
----
-
-## 11. Changes to this policy
-
-We may update this policy as the app evolves. Material changes will be reflected by updating the
-effective date at the top and publishing the new version at this URL.
-
----
-
-## 12. Contact
-
-`Andrii Bulanov`
-`wifimapper.app@gmail.com`
+</div>
+</body>
+</html>

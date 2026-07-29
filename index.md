@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terms of Use — RF Wi-Fi Mapper</title>
-<meta name="description" content="Licence scope, what the lifetime Pro unlock covers, and the limits of the coverage maps.">
+<title>Privacy Policy — RF Wi-Fi Mapper</title>
+<meta name="description" content="What data RF Wi-Fi Mapper handles, what stays on your device, and what does not.">
 <meta name="color-scheme" content="light dark">
 <style>
   /* Tokens mirror presentation/theme/AppTheme.kt so the page reads as part of the product. */
@@ -89,54 +89,99 @@
 
   <header>
     <div class="eyebrow">RF · Wi-Fi Mapper</div>
-    <h1>Terms of Use</h1>
+    <h1>Privacy Policy</h1>
     <nav>
-      <a href="../">Privacy Policy</a>
-      <a href="./" aria-current="page">Terms of Use</a>
+      <a href="./" aria-current="page">Privacy Policy</a>
+      <a href="terms/">Terms of Use</a>
     </nav>
   </header>
 
   <main>
-    <p class="meta"><strong>Effective date:</strong> <code>2026-07-29</code><br><strong>App:</strong> RF Wi-Fi Mapper (Android)<br><strong>Developer / licensor:</strong> <code>Andrii Bulanov</code><br><strong>Contact:</strong> <code>wifimapper.app@gmail.com</code></p>
-    <p>These Terms govern your use of RF Wi-Fi Mapper ("the app"). They <strong>add to</strong> the Google Play Terms of Service that already apply to anything you install from Google Play — they do not replace them. Where this document and Google's terms conflict on a matter Google governs (billing, refunds, the store itself), Google's terms prevail.</p>
-    <h2>1. Acceptance</h2>
-    <p>You accept these Terms by using the app. The app also shows them at the two points where they matter — when you first set it up, and when you buy the Pro unlock — with a link to this page.</p>
-    <p>If you do not accept these Terms, do not use the app.</p>
-    <h2>2. Your licence</h2>
-    <p>Subject to these Terms, you are granted a <strong>personal, non-exclusive, non-transferable</strong> licence to use the app.</p>
-    <p><strong>The licence is for one natural person, on devices belonging to that person.</strong> You may install and use the app on your own devices — a phone and a tablet, or a replacement phone, are the normal case and are expressly fine.</p>
-    <p><strong>What is not permitted:</strong></p>
+    <p class="meta"><strong>Effective date:</strong> <code>2026-07-29</code><br><strong>App:</strong> RF Wi-Fi Mapper (Android)<br><strong>Developer / data controller:</strong> <code>Andrii Bulanov</code><br><strong>Contact:</strong> <code>wifimapper.app@gmail.com</code></p>
+    <p>RF Wi-Fi Mapper ("the app") helps technicians survey indoor Wi-Fi and cellular signal coverage by walking a building, recording signal measurements on a floor-plan image, and exporting PDF/image reports. This policy explains what data the app handles and how.</p>
+    <p>The short version: <strong>your survey data stays on your device.</strong> The only information that leaves your device is anonymous usage and crash diagnostics, plus — if you buy the one-time Pro unlock — the purchase receipt needed to confirm and restore it.</p>
+    <h2>1. Data stored only on your device</h2>
+    <p>The following is created and stored <strong>locally on your device</strong> (in the app's private storage and an offline database). It is <strong>never transmitted to us or to any third party</strong> by the app:</p>
     <ul>
-      <li>transferring, selling, renting or sharing your account or licence with anyone else;</li>
-      <li>using a single personal licence to equip a team, staff, or the members of an organisation;</li>
-      <li>sharing account credentials so that several people can work under one purchase.</li>
+      <li><strong>Projects</strong> and the details you type into them — project name, and any <strong>client name, engineer name, and address</strong> you enter.</li>
+      <li><strong>Floor-plan images</strong> you photograph or import.</li>
+      <li><strong>Signal measurements</strong> — signal strength (dBm), the Wi-Fi network name (SSID) and cellular cell identifiers read at each point, and the point's <strong>position on your floor-plan image</strong> (stored as a relative location on the image, <strong>not</strong> as a GPS/geographic coordinate).</li>
+      <li><strong>Access points</strong> you place and name.</li>
+      <li><strong>Your profile</strong> — the name and title you optionally enter for report headers.</li>
+      <li><strong>App settings</strong> (e.g. theme).</li>
     </ul>
-    <p>A team or organisation that needs the app for several people needs a licence per person. If that describes you, write to us — that is a conversation, not a problem.</p>
-    <p><strong>Device limits.</strong> The app currently applies no numerical device limit. We may introduce a reasonable limit later to give effect to the rule above. If we do, <strong>it will be shown in the app</strong>, together with a way to release a device you no longer use, so that a limit is something you can see and manage rather than something you discover by failing. We will not remove access from a licence that is being used as described in this section.</p>
-    <h2>3. What the lifetime Pro licence covers</h2>
-    <p>The Lifetime Pro license covers all core offline map survey processing features. Future cloud-based services, server synchronizations, or AI-powered features may require separate usage credits or subscriptions to cover API processing costs.</p>
-    <p>This boundary is stated up front deliberately. "Lifetime" refers to the features the app performs on your device, which cost nothing per use. It is not a commitment to absorb the ongoing per-use cost of any service we might add later that is billed to us by a third party.</p>
-    <h2>4. Accuracy of measurements and coverage maps</h2>
-    <p>The app records signal-strength readings at the points you mark, and renders a <strong>heatmap</strong> between those points.</p>
-    <p><strong>The heatmap is a mathematical interpolation (IDW), not a measurement.</strong> Colour shown at a location where you did not take a reading is an estimate calculated from nearby readings. Its accuracy depends on how many points you took, how they were spread, the device you used, and physical conditions at the time. Radio conditions also change: the same room can read differently an hour later.</p>
-    <p>Readings are further affected by the measuring device itself — different phones report signal strength against different references, which is why the app records which device captured a session and warns when a report compares sessions taken on different devices.</p>
-    <p><strong>Reports and visualisations are provided for informational and engineering-estimation purposes.</strong> Decisions about installing, moving or specifying network equipment — and any physical work arising from them — are yours, and should rest on your own professional judgement rather than on the visualisation alone.</p>
-    <h2>5. Limitation of liability</h2>
-    <p>To the fullest extent permitted by applicable law, the developer is not liable for any indirect, incidental or consequential loss, loss of profit, loss of data, property damage, or costs of reinstallation or rework, arising from use of the app or from reliance on its measurements, heatmaps or reports.</p>
-    <p>The app is provided "as is" and "as available", without warranties of any kind beyond those that cannot be excluded by law.</p>
-    <p><strong>Nothing in these Terms limits liability that cannot be limited under the law that applies to you.</strong> Consumers keep every mandatory right their local law gives them — in the EEA, the UK and many other places, those rights cannot be signed away, and these Terms do not attempt to.</p>
-    <h2>6. Purchases and refunds</h2>
-    <p>The Pro unlock is a <strong>one-time purchase</strong>, billed by Google Play. We do not process payments and never receive your payment details — see the <a href="https://droidcrib.github.io/wifi-mapper-privacy/">Privacy Policy</a>.</p>
-    <p>Refunds follow Google Play's refund policy. Google offers a self-service refund window from the Play Store order history; after it closes, requests go to Google or to us at the address above.</p>
-    <p>The purchase is tied to the Google account that made it, and can be restored on devices signed into that account.</p>
-    <h2>7. Termination</h2>
-    <p>You may stop using the app at any time by uninstalling it.</p>
-    <p>We may restrict or end access where these Terms are breached — in practice, where a personal licence is being used to equip a team or has been transferred to someone else. <strong>Where we do that on a paid licence, our standard response is to refund the purchase</strong>, so that ending access does not also keep the money. We would rather refund a mismatch than argue about it.</p>
-    <h2>8. Changes to these Terms</h2>
-    <p>We may update these Terms as the app evolves. Material changes will be reflected by updating the effective date above and publishing the new version at this URL. Changes are not retroactive: they do not narrow what an already-completed purchase covers.</p>
-    <h2>9. Governing law</h2>
-    <p>These Terms are governed by the laws of Ukraine, without prejudice to any mandatory consumer protections of the country in which you reside.</p>
-    <h2>10. Contact</h2>
+    <p>This data remains until you delete it in the app, use the in-app "reset app data" function, or uninstall the app. We have no access to it.</p>
+    <p>PDF and image reports you generate are saved on your device; they are shared only <strong>by you</strong>, when you choose to share them, through your device's normal sharing options.</p>
+    <h2>2. Device permissions and why the app needs them</h2>
+    <div class="tbl"><table>
+      <thead><tr><th>Permission</th><th>Why it's used</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Location</strong> (precise/approximate)</td><td>Android <strong>requires</strong> location access in order to read the <strong>Wi-Fi network name (SSID)</strong> and <strong>cellular cell information</strong> used for measurements. The app does <strong>not</strong> collect, store, or transmit your geographic location. Measurement positions are recorded only as relative points on your floor-plan image.</td></tr>
+        <tr><td><strong>Phone</strong> (read phone state)</td><td>Reads cellular signal strength and cell identity for the "Mobile" measurement layer.</td></tr>
+        <tr><td><strong>Camera</strong></td><td>Lets you photograph a paper floor plan to use as the survey backdrop.</td></tr>
+        <tr><td><strong>Wi-Fi state</strong></td><td>Reads Wi-Fi signal information for the "Wi-Fi" measurement layer.</td></tr>
+      </tbody></table></div>
+    <p>The app does not use background location and does not track your location over time.</p>
+    <h2>3. Analytics and crash reporting</h2>
+    <p>The <strong>published</strong> version of the app uses two Google <strong>Firebase</strong> services to understand usage and keep the app stable:</p>
+    <ul>
+      <li><strong>Firebase Analytics</strong> — records anonymous <strong>product-usage events</strong> (for example: a screen was viewed, a project was created, a report was generated). It also collects standard app/device information (app version, device model, operating-system version, language) and an app-instance identifier, and Google derives an <strong>approximate location (region/country level) from your IP address</strong>.</li>
+      <li><strong>Firebase Crashlytics</strong> — records <strong>crash and error diagnostics</strong> (stack traces, app version, device state at the time of a crash) so we can fix problems.</li>
+    </ul>
+    <p>This information is processed by Google as our service provider. See Google's <a href="https://policies.google.com/privacy">Privacy &amp; Terms</a> and <a href="https://policies.google.com/technologies/partner-sites">How Google uses data</a>.</p>
+    <p>We do <strong>not</strong>:</p>
+    <ul>
+      <li>show ads or use an <strong>Advertising ID</strong> (the advertising-ID permission has been removed from the app),</li>
+      <li>sell your data,</li>
+      <li>build advertising profiles, or</li>
+      <li>track you across other apps or websites.</li>
+    </ul>
+    <blockquote><p>Note: analytics and crash reporting are <strong>disabled in development/debug builds</strong> — they apply only to the version distributed on Google Play.</p></blockquote>
+    <h2>4. Purchases (Pro unlock)</h2>
+    <p>The app offers a <strong>one-time purchase</strong> that unlocks PDF report generation. It is billed by <strong>Google Play</strong>, and we use <strong>RevenueCat</strong> to validate the purchase and to restore it when you reinstall the app or set up a new device.</p>
+    <p><strong>We never see or receive your payment details.</strong> Your card, bank or payment-method information is handled entirely by Google Play. It is not sent to us and not sent to RevenueCat.</p>
+    <p>What is transmitted when you buy or restore Pro:</p>
+    <ul>
+      <li>the <strong>purchase receipt/token and product identifier</strong> issued by Google Play, sent to RevenueCat so it can verify the purchase is genuine and still valid;</li>
+      <li>an <strong>anonymous installation identifier</strong> generated by RevenueCat. It is not linked to your name, email or Google account by us, and it changes if you reinstall the app;</li>
+      <li>basic app/device information (app version, platform, country) that accompanies the request.</li>
+    </ul>
+    <p>Google Play also notifies RevenueCat when a purchase is <strong>refunded or cancelled</strong>, so that access can be updated accordingly.</p>
+    <p>RevenueCat processes this on our behalf as our service provider. See <a href="https://www.revenuecat.com/privacy">RevenueCat's Privacy Policy</a>.</p>
+    <p>The app also records anonymous <strong>purchase events</strong> through Firebase Analytics (that a paywall was shown, that a purchase started, completed, failed, or was restored, and the product and displayed price). These carry no payment details and no personal identifiers.</p>
+    <p>If you never purchase Pro, none of the above applies to you.</p>
+    <h2>5. What we do not collect</h2>
+    <ul>
+      <li>No account or login — the app does not require sign-in.</li>
+      <li>No precise/geographic location is stored or transmitted.</li>
+      <li>No contacts, no microphone, no advertising identifiers.</li>
+      <li><strong>No payment details</strong> — card and billing information is handled by Google Play and never reaches us or RevenueCat (Section 4).</li>
+      <li>The survey data described in Section 1 is never sent off your device by the app.</li>
+    </ul>
+    <h2>6. Data sharing</h2>
+    <p>We do not sell or rent your data. We share it only with the <strong>service providers</strong> that process it on our behalf:</p>
+    <ul>
+      <li><strong>Google (Firebase)</strong> — the analytics and crash diagnostics described in Section 3.</li>
+      <li><strong>Google Play</strong> — billing for the Pro unlock.</li>
+      <li><strong>RevenueCat</strong> — validation and restoration of that purchase, as described in Section 4.</li>
+    </ul>
+    <p>We do not share your data with anyone else.</p>
+    <h2>7. Data retention and deletion</h2>
+    <ul>
+      <li><strong>On-device data:</strong> kept until you delete individual items, use the in-app reset, or uninstall the app. Uninstalling removes the app's local data from your device.</li>
+      <li><strong>Analytics / crash data:</strong> retained by Google for the periods described in Firebase's documentation. You can request deletion of analytics/diagnostic data associated with your device by contacting us at the email above; uninstalling the app stops further collection.</li>
+      <li><strong>Purchase records:</strong> retained by Google Play and RevenueCat for as long as needed to honour the purchase — a lifetime unlock has to remain restorable, so its record is kept while the product exists. Deleting it would remove your ability to restore Pro on a new device. Requests about purchase data can be sent to the email above.</li>
+    </ul>
+    <h2>8. Security</h2>
+    <p>On-device data is held in the app's private, sandboxed storage. Analytics, crash data and purchase verification are transmitted over encrypted (HTTPS) connections.</p>
+    <p>No method of storage or transmission is 100% secure, but we use the platform's standard protections.</p>
+    <h2>9. Children</h2>
+    <p>The app is intended for professional/technical use and is <strong>not directed to children</strong>. We do not knowingly collect data from children.</p>
+    <h2>10. Your rights</h2>
+    <p>Depending on where you live (e.g. EEA/UK under GDPR, or California under CCPA), you may have rights to access, correct, or delete personal data, or to object to certain processing. Because survey data lives on your device, you control it directly. For analytics/diagnostic data, or any other request, contact us at <code>wifimapper.app@gmail.com</code>.</p>
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this policy as the app evolves. Material changes will be reflected by updating the effective date at the top and publishing the new version at this URL.</p>
+    <h2>12. Contact</h2>
     <p><code>Andrii Bulanov</code> <code>wifimapper.app@gmail.com</code></p>
   </main>
 
